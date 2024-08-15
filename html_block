@@ -1,0 +1,1054 @@
+<style>
+    .accordion-button:focus {
+        box-shadow: none;
+    }
+    
+    .t-prefix_5 {
+        padding-left: 0;
+        margin-left: 500px;
+    }
+
+    .accordion-button {
+        font-size: 18px;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: #e8e8e8;
+    }
+
+    .accordion {
+        margin-top: 30px;
+    }
+
+    .card {
+        width: 35rem;
+        font-family: 'CirceRounded', Arial, sans-serif;
+        font-weight: normal;
+        font-size: 20px;
+        border: 0px #FF6500 solid;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+
+    .collapse_one {
+        font-family: 'CirceRounded', Arial, sans-serif;
+        font-weight: lighter;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    #color_orange {
+        color: #ff6500;
+    }
+
+    .well_weight {
+        font-weight: normal;
+    }
+
+    .image_icon {
+        width: 100%;
+        padding-right: 58px;
+        padding-left: 34px;
+        padding-top: 10px;
+    }
+
+    .image_icon_two {
+        width: 93%;
+    }
+
+    .main_link {
+        border-bottom: 1px dashed;
+    }
+
+    main_link:visited {
+        color: #595959;
+    }
+
+    .kamin_vent {
+        width: 70%;
+    }
+
+    .icon_two_next {
+        width: 58%;
+    }
+
+    .harac {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .img_height {
+        margin-bottom: .25rem !important;
+        margin-top: .25rem !important;
+        margin-right: 1rem !important;
+    }
+    
+    .collapse_font {
+        font-weight: normal;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: #f60;
+       font-size: 22px;
+    }
+
+    .seria {
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    #blok_hfplus {
+        background-color: #F4F4F4;
+        padding: 20px;
+        position: relative;
+    }
+    #blok_ceramics {
+        background-color:#e3e3e3;
+        padding: 20px;
+        position: relative;
+    }
+    #blok_austenite {
+        background-color: #F4F4F4;
+        padding: 20px;
+        position: relative;
+    }
+
+    .link_book {
+        position: absolute;
+        width: 52px;
+        position: absolute;
+        right: 80px;
+        bottom: 86px;
+        
+    }
+    .link_go {
+        display: none;
+    }
+   
+    .link_catalog {
+        position: absolute;
+        right: 79px;
+        bottom: 48px;
+        color: #444;
+        font-size: 16px;
+    }
+
+    @media (min-width: 350px) and (max-width: 630px) {
+        #rec660152351 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            font-size: 16px;
+            width: 16rem;
+        }
+
+        .accordion-button {
+            font-size: 14px;
+        }
+
+        .collapse_one {
+            font-size: 16px;
+
+        }
+
+        .image_icon_two {
+            width: 100%;
+        }
+
+        #icon_two {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .icon_two_next {
+            width: 40%;
+        }
+
+        .link_book {
+            display: none;
+        }
+        .link_catalog {
+            display: none;
+        }
+        .link_go {
+        display: block;
+    }
+    .picture_sborka {
+        display: none;
+    }
+    }
+
+    @media (min-width: 630px) and (max-width: 960px) {
+        .link_book {
+            display: none;
+        }
+        .link_catalog {
+            display: none;
+        }
+        .link_go {
+        display: block;
+    }
+    }
+
+    @media (min-width: 630px) and (max-width: 1080px) {
+        .card {
+            font-size: 16px;
+            width: 16rem;
+        }
+
+        .accordion-button {
+            font-size: 14px;
+        }
+
+        .collapse_one {
+            font-size: 16px;
+        }
+
+        .image_icon {
+            padding-right: 45px;
+            padding-left: 45px;
+        }
+   
+    }
+</style>
+
+<div class="accordion" id="accordionExample">
+    <div class="d-sm-flex">
+        <!--Дымоходы для напольных и настенных газовых котлов и колонок-->
+
+        <div class="card">
+            <img class="image_icon" src="https://static.tildacdn.com/tild3132-6261-4237-b662-393138306637/Gas.png" />
+            <div class="card-body">
+                Дымоходы для напольных и настенных газовых котлов и колонок
+                <button id="color_orange" class="accordion-button collapsed fw-lighter ps-1" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                    aria-controls="collapseOne">
+                    Подробнее
+                </button>
+            </div>
+        </div>
+
+        <div id="collapseOne" class="accordion-collapse collapse fw-lighter" data-bs-parent="#accordionExample">
+            <div class="accordion-body d-block d-sm-none">
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <span class="collapse_one">
+                        <div class="d-flex flex-column">
+                            <div class="collapse_font">Ключевые характеристики дымоходной системы</div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6533-3233-4638-a538-323034316230/Gas.png" />
+                                </div>
+                                <div>Для газового оборудования</div>
+                            </div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6435-3838-4263-b135-303966623536/temp.png" />
+                                </div>
+                                <div>Рабочая температура 450°С</div>
+                            </div>
+                            <div class="harac mb-5">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3365-3666-4064-b938-346133663663/dry.png" />
+                                </div>
+                                <div>Сухой режим</div>
+                            </div>
+                            <div class="collapse_font">Рекомендовано к установке</div>
+                           
+                            <div class="d-flex flex-column" id="blok_hfplus">
+                               
+                            <div class="seria">Серия FERRUM GS</div>
+                            
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                </div>
+                                <div>Сталь AISI 430/0,5 мм</div>
+                            </div>
+    
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                                </div>
+                                <div>Базальтовая вата</div>
+                            </div>
+                            <a href="/description-gs?tfc_storepartuid[719009585]=FERRUM+GS&tfc_div=:::">
+                                <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png" >
+                                <p class="link_catalog">каталог</p>
+                                <div class="link_go">Каталог</div>
+                                </a>
+                            </div>
+                        </div>
+    
+                    </span>
+                    
+                </div>
+              
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="image_icon" src="https://static.tildacdn.com/tild6264-3030-4865-b739-313339303966/bania.png" />
+
+            <!--Дымоходы для банных печей и топок-->
+
+            <div class="card-body">
+                Дымоходы для банных печей <br /><br />
+                <button id="color_orange" class="accordion-button collapsed fw-lighter ps-1" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    Подробнее
+                </button>
+            </div>
+        </div>
+
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body d-block d-sm-none">
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <span class="collapse_one">
+                        <div class="d-flex flex-column">
+                            <div class="collapse_font">Ключевые характеристики дымоходной системы</div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6533-3233-4638-a538-323034316230/Gas.png" />
+                                </div>
+                                <div>Для банных печей, работающих на твердом топливе</div>
+                            </div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6435-3838-4263-b135-303966623536/temp.png" />
+                                </div>
+                                <div>Рабочая температура 600°С</div>
+                            </div>
+                            <div class="harac mb-5">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3365-3666-4064-b938-346133663663/dry.png" />
+                                </div>
+                                <div>Сухой режим</div>
+                            </div>
+                            <div class="collapse_font">Рекомендовано к установке</div>
+                           
+                            <div class="d-flex flex-column" id="blok_hfplus">
+                               
+                            <div class="seria">Серия FERRUM HF Plus</div>
+                            
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                </div>
+                                <div>Сталь AISI 430/1,0 мм</div>
+                            </div>
+    
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                                </div>
+                                <div>Базальтовая вата</div>
+                            </div>
+                            <a href="/ferrum-hfplus?tfc_storepartuid[719013112]=FERRUM+HF+PLUS&tfc_div=:::">
+                                <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                <p class="link_catalog">каталог</p>
+                                <div class="link_go">Каталог</div>
+                                </a>
+                            </div>
+                            <div class="collapse_font">Рекомендовано для интенсивной эксплуатации</div>
+
+                            <div class="d-flex flex-column mt-1" id="blok_ceramics">
+                           
+                                <div class="seria">Серия FERRUM AUSTENITE CERAMICS</div>
+        
+                                <div class="harac">
+                                    <div class=""><img class="img_height"
+                                            src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                    </div>
+                                    <div>Сталь AISI 304/0,8 мм </div>
+                                </div>
+                                <div class="harac">
+                                    <div class=""><img class="img_height"
+                                            src="https://static.tildacdn.com/tild3738-6565-4365-b464-383536313861/ceramo.png" />
+                                    </div>
+                                    <div>Керамическое волокно</div>
+                                </div>
+                                <a href="/austenite-ceramics?tfc_storepartuid[725729176]=FERRUM+AUSTENITE+CERAMICS&tfc_div=:::">
+                                    <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                    <p class="link_catalog">каталог</p>
+                                    <div class="link_go">Каталог</div>
+                                    </a>
+                            </div>
+
+                            <div class="d-flex flex-column mt-1" id="blok_austenite">
+                               
+                            <div class="seria">Серия FERRUM CERAMICS</div>
+                            
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                </div>
+                                <div>Сталь AISI 430/1,0 мм</div>
+                            </div>
+    
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3738-6565-4365-b464-383536313861/ceramo.png" />
+                                </div>
+                                <div>Керамическое волокно</div>
+                            </div>
+                            <a href="/ferrum-ceramics?tfc_storepartuid[719012962]=FERRUM+CERAMICS&tfc_div=:::">
+                                <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                <p class="link_catalog">каталог</p>
+                                <div class="link_go">Каталог</div>
+                                </a>
+                        </div>
+                        <div class="d-flex flex-column mt-1" id="blok_ceramics">
+                           
+                            <div class="seria">Серия FERRUM AUSTENITE </div>
+    
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                </div>
+                                <div>Сталь AISI 304/0,8 мм </div>
+                            </div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                                </div>
+                                <div>Базальтовая вата</div>
+                            </div>
+                            <a href="/ferrum-austenite?tfc_storepartuid[719012834]=FERRUM+AUSTENITE&tfc_div=:::">
+                                <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                <p class="link_catalog">каталог</p>
+                                <div class="link_go">Каталог</div>
+                                </a>
+                        </div>
+                       
+                        <div class="collapse_font">Часто выбирают</div>
+                        <div class="d-flex flex-column mt-1" id="blok_austenite">
+                           
+                            <div class="seria">Серия FERRUM HF </div>
+                            
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                </div>
+                                <div>Сталь AISI 430/0,8 мм</div>
+                            </div>
+    
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                                </div>
+                                <div>Базальтовая вата</div>
+                            </div>
+                            <a href="/ferrum-hf?tfc_storepartuid[719013217]=FERRUM+HF&tfc_div=:::">
+                                <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                <p class="link_catalog">каталог</p>
+                                <div class="link_go">Каталог</div>
+                                </a>
+                        </div>
+                        </div>
+
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!--Дымоходы для каминов и отопительных печей -->
+
+        <div class="card">
+            <img class="image_icon" src="https://static.tildacdn.com/tild3835-3764-4365-a366-613261323731/kamin.png" />
+            <div class="card-body">
+                Дымоходы для каминов и отопительных печей <br /><br />
+                <button id="color_orange" class="accordion-button collapsed fw-lighter ps-1" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    Подробнее
+                </button>
+            </div>
+        </div>
+
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body d-block d-sm-none">
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <span class="collapse_one">
+                        <div class="d-flex flex-column">
+                            <div class="collapse_font">Ключевые характеристики дымоходной системы</div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6533-3233-4638-a538-323034316230/Gas.png" />
+                                </div>
+                                <div>Для каминов и отопительных печей </div>
+                            </div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6435-3838-4263-b135-303966623536/temp.png" />
+                                </div>
+                                <div>Рабочая температура 600°С</div>
+                            </div>
+                            <div class="harac mb-5">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3365-3666-4064-b938-346133663663/dry.png" />
+                                </div>
+                                <div>Сухой режим</div>
+                            </div>
+                            <div class="collapse_font">Рекомендовано к установке</div>
+                           
+                            <div class="d-flex flex-column" id="blok_hfplus">
+                               
+                            <div class="seria">Серия FERRUM BLACKSIDE</div>
+                            
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                </div>
+                                <div>Сталь AISI 430/0,8 мм</div>
+                            </div>
+        
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                                </div>
+                                <div>Базальтовая вата</div>
+                            </div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3738-6565-4365-b464-383536313861/ceramo.png" />
+                                </div>
+                                <div>Керамическое волокно</div>
+                            </div>
+                            <a href="/ferrum-blackside?tfc_storepartuid[719013056]=FERRUM+BLACKSIDE&tfc_div=:::">
+                                <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                <p class="link_catalog">каталог</p>
+                                <div class="link_go">Каталог</div>
+                                </a>
+                            </div>
+                            <div class="d-flex flex-column mt-1" id="blok_ceramics">
+                                
+                                <div class="seria">Серия FERRUM HF </div>
+                                
+                                <div class="harac">
+                                    <div class=""><img class="img_height"
+                                            src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                    </div>
+                                    <div>Сталь AISI 430/0,8 мм</div>
+                                </div>
+        
+                                <div class="harac">
+                                    <div class=""><img class="img_height"
+                                            src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                                    </div>
+                                    <div>Базальтовая вата</div>
+                                </div>
+                                <a href="/ferrum-hf?tfc_storepartuid[719013217]=FERRUM+HF&tfc_div=:::">
+                                    <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                    <p class="link_catalog">каталог</p>
+                                    <div class="link_go">Каталог</div>
+                                    </a>
+                            </div>
+                        </div>
+                  
+        
+                    </span>
+                   
+                  </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="image_icon" src="https://static.tildacdn.com/tild3962-6539-4239-b831-353963316538/Koteel.png" />
+            <div class="card-body">
+                Дымоходы для твердотопливных котлов<br/><br/>
+                <button id="color_orange" class="accordion-button collapsed fw-lighter ps-1" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                    aria-controls="collapseFive">
+                    Подробнее
+                </button>
+            </div>
+        </div>
+
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body d-block d-sm-none">
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <span class="collapse_one">
+                        <div class="d-flex flex-column">
+                            <div class="collapse_font">Ключевые характеристики дымоходной системы</div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6533-3233-4638-a538-323034316230/Gas.png" />
+                                </div>
+                                <div>Для твердотопливных отопительных котлов</div>
+                            </div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6435-3838-4263-b135-303966623536/temp.png" />
+                                </div>
+                                <div>Рабочая температура 600°С</div>
+                            </div>
+                            <div class="harac mb-5">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3365-3666-4064-b938-346133663663/dry.png" />
+                                </div>
+                                <div>Сухой режим</div>
+                            </div>
+                            <div class="collapse_font">Рекомендовано к установке</div>
+        
+                            <div class="d-flex flex-column mt-1" id="blok_ceramics">
+                               
+                                <div class="seria">Серия FERRUM AUSTENITE CERAMICS</div>
+        
+                                <div class="harac">
+                                    <div class=""><img class="img_height"
+                                            src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                    </div>
+                                    <div>Сталь AISI 304/0,8 мм </div>
+                                </div>
+                                <div class="harac">
+                                    <div class=""><img class="img_height"
+                                            src="https://static.tildacdn.com/tild3738-6565-4365-b464-383536313861/ceramo.png" />
+                                    </div>
+                                    <div>Керамическое волокно</div>
+                                </div>
+                                <a href="/austenite-ceramics?tfc_storepartuid[725729176]=FERRUM+AUSTENITE+CERAMICS&tfc_div=:::">
+                                    <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                    <p class="link_catalog">каталог</p>
+                                    <div class="link_go">Каталог</div>
+                                    </a>
+ 
+                            </div>
+                           
+                            <div class="d-flex flex-column mt-1" id="blok_hfplus">
+                               
+                            <div class="seria">Серия FERRUM AUSTENITE</div>
+                            
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                </div>
+                                <div>Сталь AISI 304/0,8 мм</div>
+                            </div>
+        
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                                </div>
+                                <div>Базальтовая вата</div>
+                            </div>
+                            <a href="/ferrum-austenite?tfc_storepartuid[719012834]=FERRUM+AUSTENITE&tfc_div=:::">
+                                <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                <p class="link_catalog">каталог</p>
+                                <div class="link_go">Каталог</div>
+                                </a>
+                            </div>
+                        </div>
+                  
+                    </span>          
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Раскрытие списка-->
+
+    <!--Для низкотемпературных теплогенераторов-->
+
+    <div id="collapseOne" class="accordion-collapse collapse fw-lighter" data-bs-parent="#accordionExample">
+        <div class="accordion-body d-none d-sm-block">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="collapse_one">
+                    <div class="d-flex flex-column">
+                        <div class="collapse_font">Ключевые характеристики дымоходной системы</div>
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild6533-3233-4638-a538-323034316230/Gas.png" />
+                            </div>
+                            <div>Для газового оборудования</div>
+                        </div>
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild6435-3838-4263-b135-303966623536/temp.png" />
+                            </div>
+                            <div>Рабочая температура 450°С</div>
+                        </div>
+                        <div class="harac mb-5">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3365-3666-4064-b938-346133663663/dry.png" />
+                            </div>
+                            <div>Сухой режим</div>
+                        </div>
+                        <div class="collapse_font">Рекомендовано к установке</div>
+                       
+                        <div class="d-flex flex-column" id="blok_hfplus">
+                           
+                        <div class="seria">Серия FERRUM GS</div>
+                        
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                            </div>
+                            <div>Сталь AISI 430/0,5 мм</div>
+                        </div>
+
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                            </div>
+                            <div>Базальтовая вата</div>
+                        </div>
+                        <a href="/description-gs?tfc_storepartuid[719009585]=FERRUM+GS&tfc_div=:::">
+                            <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png" >
+                            <p class="link_catalog">каталог</p>
+                            <div class="link_go">Каталог</div>
+                            </a>
+                        </div>
+                    </div>
+
+                </span>
+                <div class="d-flex justify-content-center">
+                    <img class="picture_sborka" src="https://static.tildacdn.com/tild6461-3965-4364-a637-336365633736/GS_sborka.png"
+                        style="width: 70%" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--ДЛя Бани-->
+
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body d-none d-sm-block">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="collapse_one">
+                    <div class="d-flex flex-column">
+                        <div class="collapse_font">Ключевые характеристики дымоходной системы</div>
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild6533-3233-4638-a538-323034316230/Gas.png" />
+                            </div>
+                            <div>Для банных печей, работающих на твердом топливе</div>
+                        </div>
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild6435-3838-4263-b135-303966623536/temp.png" />
+                            </div>
+                            <div>Рабочая температура 600°С</div>
+                        </div>
+                        <div class="harac mb-5">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3365-3666-4064-b938-346133663663/dry.png" />
+                            </div>
+                            <div>Сухой режим</div>
+                        </div>
+                        <div class="collapse_font">Рекомендовано к установке</div>
+                       
+                        <div class="d-flex flex-column" id="blok_hfplus">
+                           
+                        <div class="seria">Серия FERRUM HF Plus</div>
+                        
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                            </div>
+                            <div>Сталь AISI 430/1,0 мм</div>
+                        </div>
+
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                            </div>
+                            <div>Базальтовая вата</div>
+                        </div>
+                        <a href="/ferrum-hfplus?tfc_storepartuid[719013112]=FERRUM+HF+PLUS&tfc_div=:::">
+                            <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                            <p class="link_catalog">каталог</p>
+                            <div class="link_go">Каталог</div>
+                            </a>
+                        </div>
+                        <div class="collapse_font">Рекомендовано для интенсивной эксплуатации</div>
+
+                        <div class="d-flex flex-column mt-1" id="blok_ceramics">
+                       
+                            <div class="seria">Серия FERRUM AUSTENITE CERAMICS</div>
+    
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                                </div>
+                                <div>Сталь AISI 304/0,8 мм </div>
+                            </div>
+                            <div class="harac">
+                                <div class=""><img class="img_height"
+                                        src="https://static.tildacdn.com/tild3738-6565-4365-b464-383536313861/ceramo.png" />
+                                </div>
+                                <div>Керамическое волокно</div>
+                            </div>
+                            <a href="/austenite-ceramics?tfc_storepartuid[725729176]=FERRUM+AUSTENITE+CERAMICS&tfc_div=:::">
+                                <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                                <p class="link_catalog">каталог</p>
+                                <div class="link_go">Каталог</div>
+                                </a>
+                        </div>
+
+                        <div class="d-flex flex-column mt-1" id="blok_austenite">
+                           
+                        <div class="seria">Серия FERRUM CERAMICS</div>
+                        
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                            </div>
+                            <div>Сталь AISI 430/1,0 мм</div>
+                        </div>
+
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3738-6565-4365-b464-383536313861/ceramo.png" />
+                            </div>
+                            <div>Керамическое волокно</div>
+                        </div>
+                        <a href="/ferrum-ceramics?tfc_storepartuid[719012962]=FERRUM+CERAMICS&tfc_div=:::">
+                            <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                            <p class="link_catalog">каталог</p>
+                            <div class="link_go">Каталог</div>
+                            </a>
+                    </div>
+                    <div class="d-flex flex-column mt-1" id="blok_ceramics">
+                       
+                        <div class="seria">Серия FERRUM AUSTENITE </div>
+
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                            </div>
+                            <div>Сталь AISI 304/0,8 мм </div>
+                        </div>
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                            </div>
+                            <div>Базальтовая вата</div>
+                        </div>
+                        <a href="/ferrum-austenite?tfc_storepartuid[719012834]=FERRUM+AUSTENITE&tfc_div=:::">
+                            <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                            <p class="link_catalog">каталог</p>
+                            <div class="link_go">Каталог</div>
+                            </a>
+                    </div>
+                    
+                    <div class="collapse_font">Часто выбирают</div>
+                    <div class="d-flex flex-column mt-1" id="blok_austenite">
+                       
+                        <div class="seria">Серия FERRUM HF </div>
+                        
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                            </div>
+                            <div>Сталь AISI 430/0,8 мм</div>
+                        </div>
+
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                            </div>
+                            <div>Базальтовая вата</div>
+                        </div>
+                        <a href="/ferrum-hf?tfc_storepartuid[719013217]=FERRUM+HF&tfc_div=:::">
+                            <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                            <p class="link_catalog">каталог</p>
+                            <div class="link_go">Каталог</div>
+                            </a>
+                    </div>
+                    </div>
+
+                   
+                </span>
+                <div class="d-flex justify-content-end mt-3 ms-5 d-none d-md-block">
+                    <img class="picture_sborka" src="https://static.tildacdn.com/tild3561-3665-4830-b439-343332393430/sauna_sborka.png"
+                        style="width: 100%" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Камины и отопительные-->
+
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body d-none d-sm-block">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="collapse_one">
+                <div class="d-flex flex-column">
+                    <div class="collapse_font">Ключевые характеристики дымоходной системы</div>
+                    <div class="harac">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild6533-3233-4638-a538-323034316230/Gas.png" />
+                        </div>
+                        <div>Для каминов и отопительных печей </div>
+                    </div>
+                    <div class="harac">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild6435-3838-4263-b135-303966623536/temp.png" />
+                        </div>
+                        <div>Рабочая температура 600°С</div>
+                    </div>
+                    <div class="harac mb-5">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild3365-3666-4064-b938-346133663663/dry.png" />
+                        </div>
+                        <div>Сухой режим</div>
+                    </div>
+                    <div class="collapse_font">Рекомендовано к установке</div>
+                   
+                    <div class="d-flex flex-column" id="blok_hfplus">
+                       
+                    <div class="seria">Серия FERRUM BLACKSIDE</div>
+                    
+                    <div class="harac">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                        </div>
+                        <div>Сталь AISI 430/0,8 мм</div>
+                    </div>
+
+                    <div class="harac">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                        </div>
+                        <div>Базальтовая вата</div>
+                    </div>
+                    <div class="harac">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild3738-6565-4365-b464-383536313861/ceramo.png" />
+                        </div>
+                        <div>Керамическое волокно</div>
+                    </div>
+                    <a href="/ferrum-blackside?tfc_storepartuid[719013056]=FERRUM+BLACKSIDE&tfc_div=:::">
+                        <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                        <p class="link_catalog">каталог</p>
+                        <div class="link_go">Каталог</div>
+                        </a>
+                    </div>
+                    <div class="collapse_font">Часто выбирают</div>
+                    <div class="d-flex flex-column mt-1" id="blok_ceramics">
+                        
+                        <div class="seria">Серия FERRUM HF </div>
+                        
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                            </div>
+                            <div>Сталь AISI 430/0,8 мм</div>
+                        </div>
+
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                            </div>
+                            <div>Базальтовая вата</div>
+                        </div>
+                        <a href="/ferrum-hf?tfc_storepartuid[719013217]=FERRUM+HF&tfc_div=:::">
+                            <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                            <p class="link_catalog">каталог</p>
+                            <div class="link_go">Каталог</div>
+                            </a>
+                    </div>
+                </div>
+          
+
+            </span>
+            <div class="d-flex justify-content-end mt-3">
+                <img class="picture_sborka" src="https://static.tildacdn.com/tild3637-3866-4261-a638-666461353166/kamin_sborka.png"
+                    style="width: 70%" />
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--Дымоходы для твердотопливных отопительных котлов-->
+
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body d-none d-sm-block">
+            <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="collapse_one">
+                <div class="d-flex flex-column">
+                    <div class="collapse_font">Ключевые характеристики дымоходной системы</div>
+                    <div class="harac">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild6533-3233-4638-a538-323034316230/Gas.png" />
+                        </div>
+                        <div>Для твердотопливных отопительных котлов</div>
+                    </div>
+                    <div class="harac">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild6435-3838-4263-b135-303966623536/temp.png" />
+                        </div>
+                        <div>Рабочая температура 600°С</div>
+                    </div>
+                    <div class="harac mb-5">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild3365-3666-4064-b938-346133663663/dry.png" />
+                        </div>
+                        <div>Сухой режим</div>
+                    </div>
+                    <div class="collapse_font">Рекомендовано к установке</div>
+
+                    <div class="d-flex flex-column mt-1" id="blok_ceramics">
+                       
+                        <div class="seria">Серия FERRUM AUSTENITE CERAMICS</div>
+
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                            </div>
+                            <div>Сталь AISI 304/0,8 мм </div>
+                        </div>
+                        <div class="harac">
+                            <div class=""><img class="img_height"
+                                    src="https://static.tildacdn.com/tild3738-6565-4365-b464-383536313861/ceramo.png" />
+                            </div>
+                            <div>Керамическое волокно</div>
+                        </div>
+                        <a href="/austenite-ceramics?tfc_storepartuid[725729176]=FERRUM+AUSTENITE+CERAMICS&tfc_div=:::">
+                            <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                            <p class="link_catalog">каталог</p>
+                            <div class="link_go">Каталог</div>
+                            </a>
+                    </div>
+                   
+                    <div class="d-flex flex-column mt-1" id="blok_hfplus">
+                       
+                    <div class="seria">Серия FERRUM AUSTENITE</div>
+                    
+                    <div class="harac">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild3935-3339-4662-b830-393464653036/Steel.png" />
+                        </div>
+                        <div>Сталь AISI 304/0,8 мм</div>
+                    </div>
+
+                    <div class="harac">
+                        <div class=""><img class="img_height"
+                                src="https://static.tildacdn.com/tild6565-6638-4330-a332-623034326164/basalt.png" />
+                        </div>
+                        <div>Базальтовая вата</div>
+                    </div>
+                    <a href="/ferrum-austenite?tfc_storepartuid[719012834]=FERRUM+AUSTENITE&tfc_div=:::">
+                        <img class="link_book" src="https://static.tildacdn.com/tild6464-3536-4436-a332-653138303038/book.png">
+                        <p class="link_catalog">каталог</p>
+                        <div class="link_go">Каталог</div>
+                        </a>
+                    </div>
+                </div>
+          
+            </span>
+                <div class="d-flex justify-content-center mt-3">
+                    <img class="picture_sborka" src="https://static.tildacdn.com/tild3532-3635-4236-b131-633636336466/austenite_sborka.png"
+                        style="width: 70%" />
+                </div>
+        </div>
+    </div>
+</div>
+
+</div>
